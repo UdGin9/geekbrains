@@ -1,0 +1,39 @@
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.96fr 2fr;
+  padding-top: 10px;
+}
+.item a{
+  font-size: 18px;
+  padding: 170px;
+}
+.changeContainer{
+  display: flex;
+  flex-direction: column;
+}
+.buttonChange{
+  margin-bottom: 20px;
+  min-width: 17vw;
+  height: 6vh;
+  background-color: #bcc6ce;
+  border: 3px solid #6e7272;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  user-select: none;
+  margin-left: 25rem;
+  font-size: 18px;
+}
+.buttonChange:hover {
+  opacity: 1
+}
+.textarea{
+  min-width: fit-content;
+  min-height: 25rem;
+  font-size: 16px;
+  resize: none;
+  padding-right: 20px;
+}
