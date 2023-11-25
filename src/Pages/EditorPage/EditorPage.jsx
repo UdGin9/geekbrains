@@ -27,7 +27,7 @@ const EditorPage = (props) => {
         <div>
             <Header/>
             {props.isFetching ? <Loader/> : <div className={s.container}>
-                <div className={s.item}><a>Сформированный конспект лекции</a><Editor/></div>
+                <Editor/>
                 <div className={s.changeContainer}>
                     {button}
                     <Change change={change}/>

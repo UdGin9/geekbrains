@@ -19,6 +19,7 @@ const CustomEditor = () => {
 
     return (
             <div className={s.editor}>
+                <h1>Автоматически-сформированный конспект</h1>
                 <CKEditor
                     editor={ClassicEditor}
                     onChange={(e,editor) =>{

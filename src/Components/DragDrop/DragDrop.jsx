@@ -40,6 +40,7 @@ const DragDrop = () => {
 
     const handleClick = async (e) =>{
         e.preventDefault()
+        console.log(AudioFile)
         const formData = new FormData()
         formData.append("file",AudioFile)
         navigate("/textEditor")
